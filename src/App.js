@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './App.css';
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";

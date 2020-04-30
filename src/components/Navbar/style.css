@@ -1,11 +1,16 @@
-.wrapper {
-  padding-top: 50px;
-  background: #ECEFF1;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-  justify-content: space-around;
-  align-content: flex-start;
-  overflow: auto;
+.navbar li {
+  list-style: none;
+}
+
+.navbar {
+  font-size: 2.5rem;
+  height: 8rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.bg-color {
+  background-color: #800020; /* burgundy */
 }
