@@ -1,52 +1,52 @@
 [
     {
     "id": 1,
-    "image": "./assets/images/Bugs.gif",
+    "image": "./assets/images/Bugs.png",
     "clicked": false
     },
     {
     "id": 2,
-    "image": "./assets/images/Daffy.gif",
+    "image": "./assets/images/Daffy.png",
     "clicked": false
     },
     {
     "id": 3,
-    "image": "./assets/images/Elmer.gif",
+    "image": "./assets/images/Elmer.png",
     "clicked": false
     },
     {
     "id": 4,
-    "image": "./assets/images/Foghorn.gif",
+    "image": "./assets/images/Foghorn.png",
     "clicked": false
     },
     {
     "id": 5,
-    "image": "./assets/images/Gosamer.gif",
+    "image": "./assets/images/Gossamer.png",
     "clicked": false
     },
     {
     "id": 6,
-    "image": "./assets/images/Marvin.gif",
+    "image": "./assets/images/Marvin.png",
     "clicked": false
     },
     {
     "id": 7,
-    "image": "./assets/images/Speedy.gif",
+    "image": "./assets/images/Speedy.png",
     "clicked": false
     },
     {
     "id": 8,
-    "image": "./assets/images/Pepe_Le_Pew.gif",
+    "image": "./assets/images/Pepe_Le_Pew.png",
     "clicked": false
     },
     {
     "id": 9,
-    "image": "./assets/images/Porky.gif",
+    "image": "./assets/images/Porky.png",
     "clicked": false
     },
     {
     "id": 10,
-    "image": "./assets/images/Taz.gif",
+    "image": "./assets/images/Taz.png",
     "clicked": false
     },
     {
@@ -56,7 +56,7 @@
     },
     {
     "id": 12,
-    "image": "./assets/images/Jerry_Mouse.png",
+    "image": "./assets/images/Roadrunner.png",
     "clicked": false
     }
     ]
