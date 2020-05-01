@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "image": "./assets/images/Bugs.gif",
+    "clicked": false
+    },
+    {
+    "id": 2,
+    "image": "./assets/images/Daffy.gif",
+    "clicked": false
+    },
+    {
+    "id": 3,
+    "image": "./assets/images/Elmer.gif",
+    "clicked": false
+    },
+    {
+    "id": 4,
+    "image": "./assets/images/Foghorn.gif",
+    "clicked": false
+    },
+    {
+    "id": 5,
+    "image": "./assets/images/Gosamer.gif",
+    "clicked": false
+    },
+    {
+    "id": 6,
+    "image": "./assets/images/Marvin.gif",
+    "clicked": false
+    },
+    {
+    "id": 7,
+    "image": "./assets/images/Speedy.gif",
+    "clicked": false
+    },
+    {
+    "id": 8,
+    "image": "./assets/images/Pepe_Le_Pew.gif",
+    "clicked": false
+    },
+    {
+    "id": 9,
+    "image": "./assets/images/Porky.gif",
+    "clicked": false
+    },
+    {
+    "id": 10,
+    "image": "./assets/images/Taz.gif",
+    "clicked": false
+    },
+    {
+    "id": 11,
+    "image": "./assets/images/Yosemite_Sam.gif",
+    "clicked": false
+    },
+    {
+    "id": 12,
+    "image": "./assets/images/Jerry_Mouse.png",
+    "clicked": false
+    }
+    ]
