@@ -4,10 +4,12 @@ import "./style.css";
 function Jumbotron(props) {
   return (
     <div className="jumbotron">
-      <h1>Clicky Game</h1>
-      <p>
-      Click on an Image.  The images will shuffle.  Click a different image.  Don't click an image more than once!
-      </p>
+      <p>Click on an Image.</p>
+      <p>The images will shuffle.</p>
+      <p>Click a different image.</p>
+      <h1>But...Only Click an Image Once</h1>
+      <p>Try to get all 12!</p>
+      <p>Scroll down to see all the images!</p>
     </div>
   );
 }

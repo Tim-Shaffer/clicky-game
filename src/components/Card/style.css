@@ -16,12 +16,12 @@
   height: 200px;
   width: 200px;
   margin: 5px 0px;
-  border: 3px solid #800020;
+  border: 3px solid #150734;
   border-radius: 3px;
 }
 
 .card {
   height: 100%;
   overflow: hidden;
-  background-color: #cea000;
+  background-color: #4B9FE1;
 }

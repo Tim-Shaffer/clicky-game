@@ -13,7 +13,7 @@ class App extends Component {
     images: images,
     topScore: 0,
     gameScore: 0,
-    message: "Click On an Image"
+    message: "Click an Image"
   };
 
   // method to render the Cards onto the page
@@ -56,6 +56,10 @@ class App extends Component {
         for (let i = 0 ; i < images.length ; i++){
             images[i].isClicked = false;
         }
+
+        // Shuffle the array to be rendered in a random order (https://javascript.info/task/shuffle)
+        // images.sort(function(a, b){return 0.5 - Math.random()});
+        this.shuffle(this.state.images);
 
         // set the state variables to continue
         this.setState({message: "You already clicked that one!"});
