@@ -4,11 +4,11 @@ import "./style.css";
 function Footer(props) {
   return (
     // Sticky Footer from Portfolio 
-    <footer class="footer mt-auto py-3">
+    <footer className="footer mt-auto py-3">
 
-        <div class="container-sm">
+        <div className="container-sm">
 
-            <span class="text-muted">Copyright &copy; 2020 Tim Shaffer</span>
+          Copyright &copy; 2020 Tim Shaffer
 
         </div>
 
