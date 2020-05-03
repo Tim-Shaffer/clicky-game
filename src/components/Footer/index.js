@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer(props) {
   return (
-    // Sticky Footer from Portfolio 
+    
     <footer className="footer mt-auto py-3">
 
         <div className="container-sm">
