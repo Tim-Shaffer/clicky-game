@@ -1,68 +1,119 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# clicky-game
+A *React.js* memory game.
 
-## Available Scripts
+Twelve *Looney Tunes Characters* are displayed.  The object is to click each character image....**ONCE**!  It's not as easy as it sounds, as the images are re-arranged every time one of them is clicked.  If you can get through an select each one only once, you'll be the winner and hold the TopScore.  If you click on an image more than once, the scores will reset and you can try again.
 
-In the project directory, you can run:
+# Author 
+> Tim Shaffer
 
-### `yarn start`
+## Contents
+* [Deployment](#deployment)
+* [Tech Used](#tech-used)
+* [File Structure](#folder-structure)
+* [Instructions](#instructions)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Deployment
+The app is deployed to **Github Pages** at the following link:  https://tim-shaffer.github.io/clicky-game/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tech Used
+* React.js 
+* Node.js
+    * gh-pages
+* HTML 
+* CSS
+* Bootstrap
 
-### `yarn test`
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    * More information can be found in the `React-README.md`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Folder Structure
 
-### `yarn build`
+```bash
+📦clicky-game
+    📦build
+    📦node_modules
+    📦public
+    ┣ 📂assets
+    ┃ ┗ 📂images
+    ┃   ┣ 📜Bugs.png
+    ┃   ┣ 📜Daffy.png
+    ┃   ┣ 📜Elmer.png
+    ┃   ┣ 📜Foghorn.png
+    ┃   ┣ 📜Gossamer.png
+    ┃   ┣ 📜Marvin.png
+    ┃   ┣ 📜Pepe_Le_Pew.png
+    ┃   ┣ 📜Porky.png
+    ┃   ┣ 📜Roadrunner.png
+    ┃   ┣ 📜Speedy.png
+    ┃   ┣ 📜Taz.png
+    ┃   ┗ 📜Yosemite_Same.gif
+    ┣ 📜favicon.ico
+    ┣ 📜index.html
+    ┣ 📜logo192.png
+    ┣ 📜logo512.png
+    ┣ 📜manifest.json
+    ┣ 📜robots.txt
+    📦src
+    ┣ 📂components
+    ┃ ┣ 📂Card
+    ┃ ┃ ┣ 📜index.js
+    ┃ ┃ ┗ 📜style.css
+    ┃ ┣ 📂Footer
+    ┃ ┃ ┣ 📜index.js
+    ┃ ┃ ┗ 📜style.css
+    ┃ ┣ 📂Jumbotron
+    ┃ ┃ ┣ 📜index.js
+    ┃ ┃ ┗ 📜style.css
+    ┃ ┣ 📂Navbar
+    ┃ ┃ ┣ 📜index.js
+    ┃ ┃ ┗ 📜style.css
+    ┃ ┗ 📂Wrapper
+    ┃ ┃ ┗ 📜index.js
+    ┣ 📜App.js
+    ┣ 📜App.test.js
+    ┣ 📜images.json
+    ┣ 📜index.css
+    ┣ 📜index.js
+    ┣ 📜logo.svg
+    ┣ 📜serviceWorker.js
+    ┗ 📜setupTests.js
+    ┣ 📜.gitignore
+    ┣ 📜package-lock.json
+    ┣ 📜package.json
+    ┣ 📜React-README.md
+    ┣ 📜README.md
+    ┗ 📜yarn.lock
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Instructions
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Clicking the **Github Pages** link - https://tim-shaffer.github.io/clicky-game/ - will take you to the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ![Screenshot](./z_Screenshots/Startup.png)
 
-### `yarn eject`
+1. Per the Instructions that are displayed... **Scroll Down to See All the Images**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ![Screenshot](./z_Screenshots/All_Images.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Start the game by **Clicking an Image**. The Score will increment with each successful image clicked...and the images are re-arranged!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ![Screenshot](./z_Screenshots/CorrectGuesses.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. As the message says - **Keep Going!**. 
 
-## Learn More
+    ![Screenshot](./z_Screenshots/CorrectGuesses2.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. If you click an image a second time - **You already clicked that one** - is shown and the score reset. Top Score is maintained.   
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ![Screenshot](./z_Screenshots/MessUp.png)
 
-### Code Splitting
+1. Try Again!  Top Score will remain until a new top score is reached!  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    ![Screenshot](./z_Screenshots/CorrectGuesses3.png)
 
-### Analyzing the Bundle Size
+1. If you are able to get all twelve - **WINNER!!!**.  The TopScore will now be 12...and you can try your luck again! 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    ![Screenshot](./z_Screenshots/Winner.png)
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
