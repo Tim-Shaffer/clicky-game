@@ -108,7 +108,7 @@ class App extends Component {
         // set the state variables to continue for a new game!
         this.setState({images});
         this.setState({gameScore: 0});
-        this.setState({message: "You got them All!"});
+        this.setState({message: "WINNER!!!"});
         this.setState({topScore: 12});
 
     }
