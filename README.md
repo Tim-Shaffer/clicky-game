@@ -1,7 +1,7 @@
 # clicky-game
 A *React.js* memory game.
 
-Twelve *Looney Tunes Characters* are displayed.  The object is to click each character image....**ONCE**!  It's not as easy as it sounds, as the images are re-arranged every time one of them is clicked.  If you can get through an select each one only once, you'll be the winner and hold the TopScore.  If you click on an image more than once, the scores will reset and you can try again.
+Twelve *Looney Tunes Characters* are displayed.  The object is to click each character image....**ONCE**!  It's not as easy as it sounds, as the images are re-arranged every time one of them is clicked.  If you can get through and select each one only once, you'll be the winner and hold the TopScore.  If you click on an image more than once, the scores will reset and you can try again.
 
 # Author 
 > Tim Shaffer
