@@ -30,59 +30,59 @@ The app is deployed to **Github Pages** at the following link:  https://tim-shaf
 
 ```bash
 📦clicky-game
-    📦build
-    📦node_modules
-    📦public
-    ┣ 📂assets
-    ┃ ┗ 📂images
-    ┃   ┣ 📜Bugs.png
-    ┃   ┣ 📜Daffy.png
-    ┃   ┣ 📜Elmer.png
-    ┃   ┣ 📜Foghorn.png
-    ┃   ┣ 📜Gossamer.png
-    ┃   ┣ 📜Marvin.png
-    ┃   ┣ 📜Pepe_Le_Pew.png
-    ┃   ┣ 📜Porky.png
-    ┃   ┣ 📜Roadrunner.png
-    ┃   ┣ 📜Speedy.png
-    ┃   ┣ 📜Taz.png
-    ┃   ┗ 📜Yosemite_Same.gif
-    ┣ 📜favicon.ico
-    ┣ 📜index.html
-    ┣ 📜logo192.png
-    ┣ 📜logo512.png
-    ┣ 📜manifest.json
-    ┣ 📜robots.txt
-    📦src
-    ┣ 📂components
-    ┃ ┣ 📂Card
-    ┃ ┃ ┣ 📜index.js
-    ┃ ┃ ┗ 📜style.css
-    ┃ ┣ 📂Footer
-    ┃ ┃ ┣ 📜index.js
-    ┃ ┃ ┗ 📜style.css
-    ┃ ┣ 📂Jumbotron
-    ┃ ┃ ┣ 📜index.js
-    ┃ ┃ ┗ 📜style.css
-    ┃ ┣ 📂Navbar
-    ┃ ┃ ┣ 📜index.js
-    ┃ ┃ ┗ 📜style.css
-    ┃ ┗ 📂Wrapper
-    ┃ ┃ ┗ 📜index.js
-    ┣ 📜App.js
-    ┣ 📜App.test.js
-    ┣ 📜images.json
-    ┣ 📜index.css
-    ┣ 📜index.js
-    ┣ 📜logo.svg
-    ┣ 📜serviceWorker.js
-    ┗ 📜setupTests.js
-    ┣ 📜.gitignore
-    ┣ 📜package-lock.json
-    ┣ 📜package.json
-    ┣ 📜React-README.md
-    ┣ 📜README.md
-    ┗ 📜yarn.lock
+┃  📦build
+┃  📦node_modules
+┃  📦public
+┃  ┣ 📂assets
+┃  ┃ ┗ 📂images
+┃  ┃   ┣ 📜Bugs.png
+┃  ┃   ┣ 📜Daffy.png
+┃  ┃   ┣ 📜Elmer.png
+┃  ┃   ┣ 📜Foghorn.png
+┃  ┃   ┣ 📜Gossamer.png
+┃  ┃   ┣ 📜Marvin.png
+┃  ┃   ┣ 📜Pepe_Le_Pew.png
+┃  ┃   ┣ 📜Porky.png
+┃  ┃   ┣ 📜Roadrunner.png
+┃  ┃   ┣ 📜Speedy.png
+┃  ┃   ┣ 📜Taz.png
+┃  ┃   ┗ 📜Yosemite_Same.gif
+┃  ┣ 📜favicon.ico
+┃  ┣ 📜index.html
+┃  ┣ 📜logo192.png
+┃  ┣ 📜logo512.png
+┃  ┣ 📜manifest.json
+┃  ┣ 📜robots.txt
+┃  📦src
+┃  ┣ 📂components
+┃  ┣ 📂Card
+┃  ┃ ┣ 📜index.js
+┃  ┃ ┗ 📜style.css
+┃  ┣ 📂Footer
+┃  ┃ ┣ 📜index.js
+┃  ┃ ┗ 📜style.css
+┃  ┣ 📂Jumbotron
+┃  ┃ ┣ 📜index.js
+┃  ┃ ┗ 📜style.css
+┃  ┣ 📂Navbar
+┃  ┃ ┣ 📜index.js
+┃  ┃ ┗ 📜style.css
+┃  ┗ 📂Wrapper
+┃  ┃ ┗ 📜index.js
+┃  ┣📜App.js
+┃  ┣ 📜App.test.js
+┃  ┣ 📜images.json
+┃  ┣📜index.css
+┃  ┣ 📜index.js
+┃  ┣📜logo.svg
+┃  ┣📜serviceWorker.js
+┃  ┗ 📜setupTests.js
+┣ 📜.gitignore
+┣ 📜package-lock.json
+┣ 📜package.json
+┣ 📜React-README.md
+┣ 📜README.md
+┗ 📜yarn.lock
 ```
 
 # Instructions
