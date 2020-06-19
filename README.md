@@ -29,10 +29,10 @@ The app is deployed to **Github Pages** at the following link:  https://tim-shaf
 ### Folder Structure
 
 ```bash
-📦clicky-game
-┃  📦build
-┃  📦node_modules
-┃  📦public
+📂clicky-game
+┃  📂build
+┃  📂node_modules
+┃  📂public
 ┃  ┣ 📂assets
 ┃  ┃ ┗ 📂images
 ┃  ┃   ┣ 📜Bugs.png
@@ -53,7 +53,7 @@ The app is deployed to **Github Pages** at the following link:  https://tim-shaf
 ┃  ┣ 📜logo512.png
 ┃  ┣ 📜manifest.json
 ┃  ┣ 📜robots.txt
-┃  📦src
+┃  📂src
 ┃  ┣ 📂components
 ┃  ┣ 📂Card
 ┃  ┃ ┣ 📜index.js
